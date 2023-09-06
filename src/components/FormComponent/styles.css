@@ -1,0 +1,61 @@
+.portfolio-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width:800px;
+    margin: auto;
+    gap:3rem;
+    margin-top: 4rem;
+}
+
+.portfolio-form-tel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap:5px
+}
+.portfolio-form-tel input{
+    width:70%
+}
+.portfolio-form-tel p{
+    opacity: 0.5;
+}
+input{
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    border: 2px solid rgb(116, 116, 245);
+    width: 80%;
+}
+
+textarea{
+    min-width: 80%;
+    max-width: 80%;
+    min-height: 8rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 2px solid rgb(116, 116, 245);
+}
+
+button{
+    padding: 20px;
+    border-radius: 1.5rem;
+    border: none;
+    width: 20%;
+    background-color: rgb(96, 96, 235);
+    color: #fff;
+    font-size: 1rem;
+    font-style: italic;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: .3s;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

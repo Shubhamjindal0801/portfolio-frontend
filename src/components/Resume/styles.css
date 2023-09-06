@@ -1,0 +1,17 @@
+.pdf-container{
+    width: 100%;
+    text-align: center;
+}
+
+.pdf-download-btn{
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    border: 2px solid #fff;
+    cursor: pointer;
+    font-style: italic;
+    margin-top: 10px;
+}

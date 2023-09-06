@@ -1,0 +1,21 @@
+.contact-container {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-container p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.thankyou-note {
+  width: 80%;
+  margin: 40px auto;
+  color: rgba(177, 277, 277, 0.7);
+}
+
+.thankyou-note:hover {
+  color: #fff;
+}
